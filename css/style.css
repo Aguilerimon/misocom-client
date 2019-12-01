@@ -113,6 +113,10 @@ html, body {
 .font-content-index{
 	background-image: url(../assets/img/phone-font-index.jpg);
 }
+.font-content-conoce{
+    background-image: url(../assets/img/team.jpg) ;
+}
+
 .OS-phones{
 	background-color: rgba(255, 255, 255,255);
 	color: #000;
