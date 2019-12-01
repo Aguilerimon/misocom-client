@@ -162,6 +162,12 @@ html, body {
 .font-content-policy{
     background-image: url(../assets/img/prc.png);
 }
+.font-content-cookies{
+ background-image: url(../assets/img/cookies.jpg);   
+}
+.font-content-term{
+ background-image: url(../assets/img/terms.jpg);     
+}
 .jumbotron{
 	background-color: rgba(0,3,0,.4);
 	color:#fff;
