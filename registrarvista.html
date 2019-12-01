@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,30 +13,30 @@
 
 </head>  
 <body>
- <form class="formulario">
+ <form class="formulario" form method="post" action="registrar.php">
     
     <h1>Registrate</h1>
      <div class="contenedor">
      
      <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Nombre Completo">
-         
+         <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre Completo" name="nombre">
+
+
          </div>
          <div class="input-contenedor">
-         <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Direccion">
+         <i class="fas fa-user icon"></i>       
+         <input type="text" class="form-control" id="direccion" aria-describedby="emailHelp" placeholder="Direccion" name="direccion">
          
          </div>
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico">
-         
+         <input type="text" class="form-control" id="direccion" aria-describedby="emailHelp" placeholder="Correo Electronico" name="correo">
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña">
+         <input type="password" class="form-control" id="contrasena" aria-describedby="emailHelp" placeholder="Contraseña" name="contrasena">
          
          </div>
          <input type="submit" value="Registrate" class="button">

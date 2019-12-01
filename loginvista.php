@@ -19,14 +19,14 @@
          
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico" name="txtusuario">
+         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico" name="correo">
          
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
          
-         <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contraseña" name="txtpassword">
+         <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contrasena" name="contrasena">
          </div>
          <input type="submit" value="Login" class="button">
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
