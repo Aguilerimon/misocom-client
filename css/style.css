@@ -159,6 +159,9 @@ html, body {
 .font-content-news{
 	background-image: url(../assets/img/images.jpg);
 }
+.font-content-policy{
+    background-image: url(../assets/img/prc.png);
+}
 .jumbotron{
 	background-color: rgba(0,3,0,.4);
 	color:#fff;
