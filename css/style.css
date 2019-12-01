@@ -160,7 +160,8 @@ html, body {
 	color:#fff;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding-bottom: 250px;
+	padding-bottom: 380px;
+    padding-top:  180px;
 }
 .all-news-contents{
 	background-color: rgba(255, 255, 255,0.9);
@@ -282,6 +283,8 @@ html, body {
 		background-color: rgb(255,255,255);
 		color: #333;
 		padding-bottom: 60px;
+        padding-top: 180px;
+
 	}
     .jumbotron > p{
 		font-size: 16px;
@@ -398,18 +401,21 @@ p{
         margin-top: 150px;
         border-radius: 2%;
     }
+    
+
 }
 
 
 
 }
 /* col-sm */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 900px) and (max-width: 991px) {
     .principal-container-services > a{
         width: 48%;
     }
     .jumbotron{
 		padding-bottom: 70px;
+        
 	}
 }
 /* col-md */
