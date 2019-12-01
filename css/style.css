@@ -157,7 +157,7 @@ html, body {
 }
 /* ================================Styles news====================================*/
 .font-content-news{
-	background-image: url(../assets/img/images.jpg);
+	background-image: url(../assets/img/noticias.png);
 }
 .font-content-policy{
     background-image: url(../assets/img/prc.png);
@@ -167,6 +167,9 @@ html, body {
 }
 .font-content-term{
  background-image: url(../assets/img/terms.jpg);     
+}
+.font-content-serv{
+ background-image: url(../assets/img/serv.jpg);   
 }
 .jumbotron{
 	background-color: rgba(0,3,0,.4);
