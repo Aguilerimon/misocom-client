@@ -9,7 +9,7 @@
 	
 
 </head>  
-<body>
+<body >
     <form class="formulario" form method="post" action="login.php">
     
     <h1>Login</h1>
