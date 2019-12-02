@@ -171,6 +171,9 @@ html, body {
 .font-content-serv{
  background-image: url(../assets/img/serv.jpg);   
 }
+.font-content-Doritos{
+ background-image: url(../assets/img/DoritosW.jpg);   
+}
 .jumbotron{
 	background-color: rgba(0,3,0,.4);
 	color:#fff;

@@ -23,10 +23,16 @@ alert("Este correo ya esta en uso, favor de ingresar otro")
 $resultado = mysqli_query($conexion,$insertar);
 if(!$resultado)
 {
-	echo 'error al registrarse';
+	echo '<script>
+alert("Este correo ya esta en uso, favor de ingresar otro")
+		window.history.go(-1);
+		</script>
+	';
+	exit;
 }
 else
 {
 	echo 'Usuario registrado';
+	header("Location: loginvista.html");
 }
 mysqli_close($conexion);
