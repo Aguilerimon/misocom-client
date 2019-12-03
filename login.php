@@ -44,7 +44,7 @@ $contrasena = $_POST["contrasena"];
 
 //$correo = $_POST["txtusuario"];
 //$pass = $_POST["txtpassword"];
-$query = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo = '".$correo."' and contrasena ='".$contrasena."'");
+$query = mysqli_query($conexion,"SELECT * FROM clientes WHERE correo = '".$correo."' and contrasena ='".$contrasena."'");
 $nr= mysqli_num_rows($query);
 
 if ($nr == 1)

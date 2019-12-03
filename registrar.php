@@ -2,14 +2,14 @@
 
 include 'cn.php';
 
-$nombre = $_POST["nombre"];
+$nombres = $_POST["nombres"];
 $direccion = $_POST["direccion"];
 $correo = $_POST["correo"];
 $contrasena = $_POST["contrasena"];
 
-$insertar = "INSERT INTO usuarios(nombre,direccion,correo,contrasena) VALUES ('$nombre','$direccion','$correo','$contrasena')";
+$insertar = "INSERT INTO clientes(nombres,direccion,correo,contrasena) VALUES ('$nombres','$direccion','$correo','$contrasena')";
 
-$verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo = '$correo'");
+$verificar_usuario = mysqli_query($conexion, "SELECT * FROM clientes WHERE correo = '$correo'");
 if(mysqli_num_rows($verificar_usuario)>0)
 {
 	echo '<script>
